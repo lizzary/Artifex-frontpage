@@ -117,7 +117,7 @@ export default function ShowcaseGallery() {
                             </AnimatePresence>
                             <div className="absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-ink-950 via-ink-950/80 to-transparent pointer-events-none" />
                             <div className="absolute bottom-3 left-4 right-4 text-xs sm:text-sm text-white/80">
-                                <span className="text-violet-soft font-mono mr-2">//</span>
+                                <span className="text-violet-soft font-mono mr-2">{'//'}</span>
                                 {current.caption}
                             </div>
                         </div>
