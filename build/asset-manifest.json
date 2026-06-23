@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/artifex/static/css/main.3f205564.css",
+    "main.js": "/artifex/static/js/main.9f8c80be.js",
+    "index.html": "/artifex/index.html",
+    "main.3f205564.css.map": "/artifex/static/css/main.3f205564.css.map",
+    "main.9f8c80be.js.map": "/artifex/static/js/main.9f8c80be.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3f205564.css",
+    "static/js/main.9f8c80be.js"
+  ]
+}

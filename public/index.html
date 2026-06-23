@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#070418" />
+    <meta name="color-scheme" content="dark" />
+    <meta
+      name="description"
+      content="Artifex — A self-hosted gallery for ComfyUI creators. Parse workflow metadata, auto-tag with a local vision model, organise thousands of generations with colour grouping and FTS5 search. Fully local, zero telemetry."
+    />
+    <meta property="og:title" content="Artifex — Self-hosted ComfyUI Gallery" />
+    <meta property="og:description" content="Parse ComfyUI metadata, auto-tag with a local vision model, organise thousands of generations with colour grouping and FTS5 search." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <title>Artifex — Elegantly curate your AI-generated gallery</title>
+
+    <style>
+      /* avoid white flash before React mounts */
+      html, body { background-color: #070418; }
+      #root:empty::after {
+        content: "";
+        position: fixed; inset: 0;
+        background:
+          radial-gradient(60% 50% at 50% 30%, rgba(168,85,247,0.18), transparent 70%),
+          radial-gradient(60% 50% at 50% 70%, rgba(34,211,238,0.12), transparent 70%),
+          #070418;
+      }
+    </style>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"></div>
+  </body>
+</html>
